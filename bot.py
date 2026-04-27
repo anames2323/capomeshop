@@ -17,10 +17,10 @@ from datetime import datetime
 
 load_dotenv()
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-MONGODB_URI = os.getenv("MONGODB_URI")
-SUPPORT_USERNAME = os.getenv("SUPPORT_USERNAME")
-ADMIN_ID = int(os.getenv("ADMIN_ID", "0"))
+BOT_TOKEN = os.getenv("8086792303:AAFYC6hmgZMsLBjVwS2g-8AuNEUzKwHEWiw")
+MONGODB_URI = os.getenv("mongodb+srv://capone:<popa22830399>@cluster0.imruwlj.mongodb.net/")
+SUPPORT_USERNAME = os.getenv("arseniylap2011")
+ADMIN_ID = int(os.getenv("ADMIN_ID", "8795006636"))
 
 logging.basicConfig(level=logging.INFO)
 
