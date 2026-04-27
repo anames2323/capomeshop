@@ -17,7 +17,7 @@ from datetime import datetime
 
 load_dotenv()
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("8086792303:AAFYC6hmgZMsLBjVwS2g-8AuNEUzKwHEWiw")
 MONGODB_URI = os.getenv("MONGODB_URI")
 SUPPORT_USERNAME = os.getenv("SUPPORT_USERNAME")
 ADMIN_ID = int(os.getenv("ADMIN_ID", "0"))
